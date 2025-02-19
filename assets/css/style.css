@@ -1,0 +1,55 @@
+.heading {
+    background: #baffff;
+    color: blue;
+    display: flex;
+    justify-content: center;
+    padding: 9px;
+    margin-bottom: 15px;
+}
+
+svg{
+    height: 18px;
+    width: 18px;
+    fill: white;
+}
+
+form{
+    width: 100%;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+} 
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    gap: 145px;
+    margin-bottom: 20px;
+}
+
+.link .btn.btn-primary{
+    white-space: nowrap;
+}
+
+.link .btn.btn-primary a{
+    color: white;
+    text-decoration: none;
+}
+
+.icon {
+    padding: 7px;
+    background: #bbb5b5;
+}
+
+input#exampleDataList {
+    border-radius: 0;
+}
+
+.bttn{
+    background: #b5d8f4;
+    color: blue;
+     padding: 5px 30px; 
+    text-decoration: none;
+}
