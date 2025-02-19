@@ -10,11 +10,7 @@
   
   $q="INSERT INTO `user_info` (`No`, `Name`, `Email`, `Phone No`) VALUES (NULL, '$name', '$email', '$num')";
   $result=$conn->query($q);
-  //  echo "<pre>";
-  //  print_r($q);
-  //  exit;
   if($result){
-    // echo "inserted";
     $insert = true;
   }
   else{
